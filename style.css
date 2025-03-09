@@ -1,0 +1,37 @@
+body {
+    overflow: hidden;
+    background: black;
+}
+#top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100vw - 8px);
+    padding: 4px;
+    background: hsla(0, 100%, 100%, 80%);
+    font-size: 18px;
+}
+input,button {
+    background: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 0px;
+}
+
+#content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+}
+.row {
+    flex-direction: row;
+    display: flex;
+    width: calc(100vw - 8px);
+}
+.cell {
+    flex: 1;
+    width: 5px;
+    height: 5px;
+}
