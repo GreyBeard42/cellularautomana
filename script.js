@@ -78,7 +78,7 @@ function buildRow(row) {
     })
     document.getElementById("content").appendChild(erow)
     setTimeout(() => {currow = buildRow(currow)}, document.getElementById("speed").value)
-    window.scroll(0, y*window.innerWidth*0.09)
+    document.getElementById("content").scrollTo(0, y*window.innerWidth*0.09)
     return output
 }
 let speed = document.getElementById("speed")
