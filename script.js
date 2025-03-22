@@ -86,7 +86,7 @@ function buildRow(row) {
 let speed = document.getElementById("speed")
 speed.addEventListener("input", () => {
     if(speed.value < 1) speed.value = 1
-    if(speed.value > 100) speed.value = 200
+    if(speed.value > 200) speed.value = 200
 })
 
 reset()
