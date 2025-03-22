@@ -1,5 +1,5 @@
-# cellularautomana
-1D Cellular Autonmana
+# cellularautomata
+1D Cellular Autonmata
 
 The best patterns are prime numbers.
 
