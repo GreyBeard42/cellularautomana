@@ -41,8 +41,10 @@ function buildRow(row) {
         //neighbors
         let n = []
         if(x > 0) n.push(row[x-1])
+        else n.push(row[row.length-1])
         n.push(row[x])
         if(x < width-1) n.push(row[x+1])
+        else n.push(row[0])
         
         //rules
         let happy = false
